@@ -1,0 +1,69 @@
+body{
+	color: #72353D;  
+    background-color: #EAD2D5;
+}
+#segundo{
+	background-color: gray;
+	text-align: center;
+	margin: 30px;
+	padding: 30px;
+}
+#first{
+    background-color: rgb(50, 157, 199);
+	height: 200px;
+	width: 50%;
+	float: left;
+	font-size: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra */
+	animation: BGcolorChanging-4colors 5s linear infinite alternate both;
+}
+@keyframes BGcolorChanging-4colors {
+	0% {
+	  background: #f80606;
+	}
+	33.3333% {
+	  background: #df4545;
+	}
+	66.666% {
+	  background: #3442bd;
+	}
+	100% {
+	  background: #0004fc;
+	}
+  }
+#second{  
+    background-color: rgb(163, 79, 79);
+	height: 200px;
+	width: 50%;
+	float: right;
+	font-size: 1.5em;
+	font-size: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra */
+	animation: BGcolorChanging-4colors2 5s linear infinite alternate both;
+}
+@keyframes BGcolorChanging-4colors2 {
+	0% {
+	  background: #0004fc;
+	}
+	33.3333% {
+	  background: #3442bd;
+	}
+	66.666% {
+	  background: #df4545;
+	}
+	100% {
+	  background: #f80606;
+	}
+  }
+#third{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 50px 50px;
+	width: 40%;
+	margin-top: 500px;
+	transform: rotate(90deg);
+}
+
+#forth{
+	background-repeat: initial;
+}
